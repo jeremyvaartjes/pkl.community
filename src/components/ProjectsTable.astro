@@ -1,0 +1,27 @@
+---
+
+---
+<div class="project-table">
+    <div class="project-table-header">
+        <strong>Projects</strong>
+    </div>
+    <ul>
+        <slot />
+    </ul>
+</div>
+<style>
+    .project-table {
+        border-radius: 10px;
+        border: 1px solid var(--light-grey);
+        overflow: hidden;
+    }
+    .project-table-header {
+        background: var(--lighter-grey);
+        padding: 18px;
+    }
+    ul {
+        margin: 0;
+        list-style: none;
+        padding: 0;
+    }
+</style>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="111px" height="211px" viewBox="0 0 111 211" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Pickle</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#E6F7D1" offset="0%"></stop>
+            <stop stop-color="#C9EBA4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pickle" transform="translate(4.1691, 4.5319)">
+            <path d="M20.4087171,175.879783 C-4.43112669,135.297752 -9.67129675,81.5085522 22.0679835,33.9722696 C53.8072638,-13.564013 102.362141,15.4716981 102.362141,32.3430838 C102.362141,49.2144696 58.699447,84.3783682 89.3878813,147.405857 C120.076316,210.433346 45.2485608,216.461814 20.4087171,175.879783 Z" id="Path" stroke="#4F8537" stroke-width="8" fill="#B4D795"></path>
+            <path d="M84.773179,11 C84.773179,11 89.3908833,2.40965194 95.773179,-2.84217094e-14" id="Path-2" stroke="#4F8537" stroke-width="8" stroke-linecap="round"></path>
+            <circle id="Oval" fill="url(#linearGradient-1)" cx="24.3308908" cy="81.9680838" r="5.5"></circle>
+            <circle id="Oval" fill="url(#linearGradient-1)" cx="61.3308908" cy="87.9680838" r="5.5"></circle>
+            <circle id="Oval" fill="url(#linearGradient-1)" cx="56.3308908" cy="52.9680838" r="5.5"></circle>
+            <circle id="Oval" fill="url(#linearGradient-1)" cx="41.3308908" cy="127.968084" r="5.5"></circle>
+            <circle id="Oval" fill="url(#linearGradient-1)" cx="24.3308908" cy="109.968084" r="5.5"></circle>
+            <circle id="Oval" fill="url(#linearGradient-1)" cx="67.3308908" cy="150.968084" r="5.5"></circle>
+            <circle id="Oval" fill="url(#linearGradient-1)" cx="36.3308908" cy="156.968084" r="5.5"></circle>
+            <circle id="Oval" fill="url(#linearGradient-1)" cx="45.3308908" cy="70.9680838" r="5.5"></circle>
+            <circle id="Oval" fill="url(#linearGradient-1)" cx="42.3308908" cy="34.9680838" r="5.5"></circle>
+            <circle id="Oval" fill="url(#linearGradient-1)" cx="78.3308908" cy="34.9680838" r="5.5"></circle>
+            <circle id="Oval" fill="url(#linearGradient-1)" cx="61.3308908" cy="172.968084" r="5.5"></circle>
+        </g>
+    </g>
+</svg>
