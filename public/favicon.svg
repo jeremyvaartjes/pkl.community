@@ -1,9 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 128 128">
-    <path d="M50.4 78.5a75.1 75.1 0 0 0-28.5 6.9l24.2-65.7c.7-2 1.9-3.2 3.4-3.2h29c1.5 0 2.7 1.2 3.4 3.2l24.2 65.7s-11.6-7-28.5-7L67 45.5c-.4-1.7-1.6-2.8-2.9-2.8-1.3 0-2.5 1.1-2.9 2.7L50.4 78.5Zm-1.1 28.2Zm-4.2-20.2c-2 6.6-.6 15.8 4.2 20.2a17.5 17.5 0 0 1 .2-.7 5.5 5.5 0 0 1 5.7-4.5c2.8.1 4.3 1.5 4.7 4.7.2 1.1.2 2.3.2 3.5v.4c0 2.7.7 5.2 2.2 7.4a13 13 0 0 0 5.7 4.9v-.3l-.2-.3c-1.8-5.6-.5-9.5 4.4-12.8l1.5-1a73 73 0 0 0 3.2-2.2 16 16 0 0 0 6.8-11.4c.3-2 .1-4-.6-6l-.8.6-1.6 1a37 37 0 0 1-22.4 2.7c-5-.7-9.7-2-13.2-6.2Z" />
-    <style>
-        path { fill: #000; }
-        @media (prefers-color-scheme: dark) {
-            path { fill: #FFF; }
-        }
-    </style>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="111px" height="211px"><svg width="111px" height="211px" viewBox="0 0 111 211" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Pickle</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="SvgjsLinearGradient1015">
+            <stop stop-color="#E6F7D1" offset="0%"></stop>
+            <stop stop-color="#C9EBA4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="SvgjsG1014" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SvgjsG1013" transform="translate(4.1691, 4.5319)">
+            <path d="M20.4087171,175.879783 C-4.43112669,135.297752 -9.67129675,81.5085522 22.0679835,33.9722696 C53.8072638,-13.564013 102.362141,15.4716981 102.362141,32.3430838 C102.362141,49.2144696 58.699447,84.3783682 89.3878813,147.405857 C120.076316,210.433346 45.2485608,216.461814 20.4087171,175.879783 Z" id="SvgjsPath1012" stroke="#4F8537" stroke-width="8" fill="#B4D795"></path>
+            <path d="M84.773179,11 C84.773179,11 89.3908833,2.40965194 95.773179,-2.84217094e-14" id="SvgjsPath1011" stroke="#4F8537" stroke-width="8" stroke-linecap="round"></path>
+            <circle id="SvgjsCircle1010" fill="url(#linearGradient-1)" cx="24.3308908" cy="81.9680838" r="5.5"></circle>
+            <circle id="SvgjsCircle1009" fill="url(#linearGradient-1)" cx="61.3308908" cy="87.9680838" r="5.5"></circle>
+            <circle id="SvgjsCircle1008" fill="url(#linearGradient-1)" cx="56.3308908" cy="52.9680838" r="5.5"></circle>
+            <circle id="SvgjsCircle1007" fill="url(#linearGradient-1)" cx="41.3308908" cy="127.968084" r="5.5"></circle>
+            <circle id="SvgjsCircle1006" fill="url(#linearGradient-1)" cx="24.3308908" cy="109.968084" r="5.5"></circle>
+            <circle id="SvgjsCircle1005" fill="url(#linearGradient-1)" cx="67.3308908" cy="150.968084" r="5.5"></circle>
+            <circle id="SvgjsCircle1004" fill="url(#linearGradient-1)" cx="36.3308908" cy="156.968084" r="5.5"></circle>
+            <circle id="SvgjsCircle1003" fill="url(#linearGradient-1)" cx="45.3308908" cy="70.9680838" r="5.5"></circle>
+            <circle id="SvgjsCircle1002" fill="url(#linearGradient-1)" cx="42.3308908" cy="34.9680838" r="5.5"></circle>
+            <circle id="SvgjsCircle1001" fill="url(#linearGradient-1)" cx="78.3308908" cy="34.9680838" r="5.5"></circle>
+            <circle id="SvgjsCircle1000" fill="url(#linearGradient-1)" cx="61.3308908" cy="172.968084" r="5.5"></circle>
+        </g>
+    </g>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+</style></svg>

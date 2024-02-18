@@ -1,0 +1,23 @@
+---
+import Hero from "../components/Hero.astro";
+import Layout from "../layouts/Layout.astro";
+import Wrapper from "../components/Wrapper.astro";
+import ProjectsTable from "../components/ProjectsTable.astro"
+import ProjectRow from "../components/ProjectRow.astro";
+---
+
+<Layout title="Projects | Pkl Community">
+    <Hero title="Projects">
+        <p>This is a list of community managed projects.</p>
+    </Hero>
+    <main>
+        <Wrapper>
+            <ProjectsTable>
+                <ProjectRow title="node-packages" description="These packages ship the Pkl CLI as an NPM module, allowing it to be run with npx and controlled programmatically as a library." href="https://github.com/pkl-community/node-packages" />
+                <ProjectRow title="pkl-csharp" description="These packages are C# bindings to pkl to provide a native way to interact with pkl files" href="https://github.com/Rafaeruo/pkl-csharp" />
+                <ProjectRow title="pkl-playground" description="Like the Go playground (and others), but for Pkl!" href="https://github.com/jasongwartz/pkl-playground" />
+                <ProjectRow title="pkl-typescript" description="Typescript bindings for Pkl" href="https://github.com/pkl-community/pkl-typescript" />
+            </ProjectsTable>
+        </Wrapper>
+    </main>
+</Layout>

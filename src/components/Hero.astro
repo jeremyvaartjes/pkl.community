@@ -1,0 +1,20 @@
+---
+import Wrapper from "./Wrapper.astro";
+interface Props {
+    title: string;
+}
+
+const { title } = Astro.props;
+---
+<section>
+    <Wrapper>
+        <h1>{title}</h1>
+        <slot />
+    </Wrapper>
+</section>
+<style>
+    section {
+        background: var(--lighter-grey);
+        padding: 40px 0;
+    }
+</style>
