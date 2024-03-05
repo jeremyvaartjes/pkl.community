@@ -4,11 +4,11 @@ import Layout from "../layouts/Layout.astro";
 import Wrapper from "../components/Wrapper.astro";
 import ProjectsTable from "../components/ProjectsTable.astro"
 import ProjectRow from "../components/ProjectRow.astro";
-import { getCollection } from "astro:content";
+import { getCollection, CollectionEntry } from "astro:content";
 
 const projects = await getCollection("projects");
 
-const sortFunc = (a, b) => {
+const sortFunc = (a: CollectionEntry<"projects">, b: CollectionEntry<"projects">) => {
     const nameA = a.data.title.toUpperCase();
     const nameB = b.data.title.toUpperCase();
 
