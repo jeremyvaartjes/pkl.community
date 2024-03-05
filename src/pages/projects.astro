@@ -4,6 +4,23 @@ import Layout from "../layouts/Layout.astro";
 import Wrapper from "../components/Wrapper.astro";
 import ProjectsTable from "../components/ProjectsTable.astro"
 import ProjectRow from "../components/ProjectRow.astro";
+import { getCollection } from "astro:content";
+
+const projects = await getCollection("projects");
+
+const sortFunc = (a, b) => {
+    const nameA = a.data.title.toUpperCase();
+    const nameB = b.data.title.toUpperCase();
+
+    if (nameA < nameB) {
+        return -1;
+    }
+    if (nameA > nameB) {
+        return 1;
+    }
+
+    return 0;
+}
 ---
 
 <Layout title="Projects | Pkl Community">
@@ -13,14 +30,9 @@ import ProjectRow from "../components/ProjectRow.astro";
     <main>
         <Wrapper>
             <ProjectsTable>
-                <ProjectRow title="cfnpkl" description="cfnpkl is bindings for the Pkl language to generate CloudFormation templates instead of using JSON or YAML." href="https://github.com/masp/cfnpkl" />
-                <ProjectRow title="node-packages" description="These packages ship the Pkl CLI as an NPM module, allowing it to be run with npx and controlled programmatically as a library." href="https://github.com/pkl-community/node-packages" />
-                <ProjectRow title="pkl-csharp" description="These packages are C# bindings to pkl to provide a native way to interact with pkl files." href="https://github.com/Rafaeruo/pkl-csharp" />
-                <ProjectRow title="PklLanguageServer" description="Language server for Apple Pkl language written in Swift." href="https://github.com/jayadamsmorgan/PklLanguageServer" />
-                <ProjectRow title="pkl-playground" description="Like the Go playground (and others), but for Pkl!" href="https://github.com/jasongwartz/pkl-playground" />
-                <ProjectRow title="pkl-python" description="Python bindings for Pkl." href="https://github.com/pkl-community/pkl-python" />
-                <ProjectRow title="pkl-typescript" description="Typescript bindings for Pkl." href="https://github.com/pkl-community/pkl-typescript" />
-                <ProjectRow title="vite-plugin-pkl" description="PKL file import plugin for Vite." href="https://github.com/martinkruusement/vite-plugin-pkl" />
+                {projects.toSorted(sortFunc).map(p => (
+                        <ProjectRow title={p.data.title} description={p.data.description} href={p.data.url} />
+                ))}
             </ProjectsTable>
         </Wrapper>
     </main>
