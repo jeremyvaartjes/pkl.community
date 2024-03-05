@@ -4,7 +4,7 @@ import Layout from "../layouts/Layout.astro";
 import Wrapper from "../components/Wrapper.astro";
 import ProjectsTable from "../components/ProjectsTable.astro"
 import ProjectRow from "../components/ProjectRow.astro";
-import { getCollection, CollectionEntry } from "astro:content";
+import { getCollection, type CollectionEntry } from "astro:content";
 
 const projects = await getCollection("projects");
 
