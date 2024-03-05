@@ -8,7 +8,7 @@ import { getCollection, type CollectionEntry } from "astro:content";
 
 const projects = await getCollection("projects");
 
-const sortFunc = (a: CollectionEntry<"projects">, b: CollectionEntry<"projects">) => {
+function sortFunc (a: CollectionEntry<"projects">, b: CollectionEntry<"projects">) {
     const nameA = a.data.title.toUpperCase();
     const nameB = b.data.title.toUpperCase();
 
@@ -21,6 +21,8 @@ const sortFunc = (a: CollectionEntry<"projects">, b: CollectionEntry<"projects">
 
     return 0;
 }
+
+projects.sort(sortFunc);
 ---
 
 <Layout title="Projects | Pkl Community">
@@ -30,7 +32,7 @@ const sortFunc = (a: CollectionEntry<"projects">, b: CollectionEntry<"projects">
     <main>
         <Wrapper>
             <ProjectsTable>
-                {projects.toSorted(sortFunc).map(p => (
+                {projects.map(p => (
                         <ProjectRow title={p.data.title} description={p.data.description} href={p.data.url} />
                 ))}
             </ProjectsTable>
